@@ -1,0 +1,166 @@
+html{
+    background-color: rgb(206, 207, 182) ;
+}
+
+
+
+.middletext{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+}
+
+.center-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; /* Add some space between the buttons if desired */
+}
+.hover{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  a span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #f378ed;
+    transition: all .35s;
+  }
+  
+  a:hover{
+    color: #fff;
+  }
+  
+  a:hover:after{
+    width: 100%;
+  }
+  
+  .a1{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  .a1 span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .a1:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #6fddc5;
+    transition: all .35s;
+  }
+  
+  .a1:hover{
+    color: #fff;
+  }
+  
+  .a1:hover:after{
+    width: 100%;
+  }
+  
+
+  .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .footer {
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+.html1{
+    background-color: #ebbfe8;
+}
+
+.dolu{
+    margin-top: 100px;
+}
+
+.html2{
+    background-color: rgb(189, 253, 253);
+}
+
+
+.carousel1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 200px;
+    height: 150px;
+  }
+  
+  .carousel-inner1 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .carousel1 img:last-child {
+    margin-right: 0;
+  }
